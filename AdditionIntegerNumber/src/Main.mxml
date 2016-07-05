@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" creationComplete="init()">
+	<mx:Script>
+	<![CDATA[
+	public var pie:PIE;
+	public  function init():void
+	{
+	pie = new PIE();
+	this.addChild(pie);
+	}
+	]]>
+	</mx:Script>
+</mx:Application>
